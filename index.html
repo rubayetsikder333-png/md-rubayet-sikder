@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Md Rubayet Sikder | Link Hub</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* CSS Variables for easy color management */
+        :root {
+            --primary-color: #0077b6; /* Deep Blue */
+            --background-color: #e9ecef; /* Light Gray Background */
+            --card-color: #ffffff;
+            --text-color: #343a40; /* Dark Text */
+            --shadow-light: 0 4px 8px rgba(0, 0, 0, 0.1);
+            --shadow-hover: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Base Body Style */
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: var(--background-color);
+            display: flex;
+            justify-content: center;
+            align-items: flex-start; /* Links start from the top */
+            min-height: 100vh;
+            margin: 0;
+            padding: 40px 20px;
+            box-sizing: border-box;
+            color: var(--text-color);
+        }
+
+        /* Main Container Style */
+        .link-container {
+            width: 100%;
+            max-width: 450px;
+            padding: 30px;
+            background-color: var(--card-color);
+            border-radius: 15px;
+            box-shadow: var(--shadow-light);
+            text-align: center;
+            transition: all 0.3s ease-in-out;
+        }
+
+        /* Profile Section (Optional but Professional) */
+        .profile-section {
+            margin-bottom: 35px;
+        }
+        .profile-name {
+            font-size: 28px;
+            font-weight: 700;
+            margin-top: 10px;
+            color: var(--text-color);
+        }
+        .profile-bio {
+            font-size: 16px;
+            font-weight: 400;
+            color: #6c757d;
+        }
+
+        /* Link Button Style */
+        .link-button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            color: var(--card-color);
+            background-color: var(--primary-color);
+            padding: 16px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            font-size: 17px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            border: 2px solid transparent; /* For hover effect */
+        }
+
+        .link-button:hover {
+            transform: translateY(-3px);
+            box-shadow: var(--shadow-hover);
+            opacity: 0.9;
+            border-color: #adb5bd; /* Subtle border on hover */
+        }
+
+        /* Icon Style */
+        .link-button i {
+            margin-right: 12px;
+            font-size: 22px;
+        }
+
+        /* Custom Colors for Professional Branding */
+        .facebook {
+            background-color: #1877f2;
+        }
+        .whatsapp {
+            background-color: #25d366;
+        }
+        .website {
+            background-color: #ffc300; /* Amber/Gold for Website */
+            color: var(--text-color); /* Dark text for light button */
+        }
+        .location {
+            background-color: #dc3545; /* Red for Location/Action */
+        }
+        
+    </style>
+</head>
+<body>
+
+    <div class="link-container">
+        <div class="profile-section">
+            <h1 class="profile-name">Md Rubayet Sikder</h1>
+            <p class="profile-bio">ওয়েবসাইট এবং সোশ্যাল মিডিয়ার মাধ্যমে আমার সাথে যোগাযোগ করুন।</p>
+        </div>
+
+        <a href="https://www.facebook.com/mdrubayet.sikder.16" target="_blank" class="link-button facebook">
+            <i class="fab fa-facebook-f"></i> Facebook Profile
+        </a>
+
+        <a href="https://wa.me/8801930795840" target="_blank" class="link-button whatsapp">
+            <i class="fab fa-whatsapp"></i> WhatsApp Message
+        </a>
+
+        <a href="https://sites.google.com/d/1bKCDXXslY8WrHnoddkTy6NzDqVuIwlci/p/1upOYURDC4inpRc-OLSzqVt8PLLgCyVh8/edit" target="_blank" class="link-button website">
+            <i class="fas fa-globe"></i> Visit My Website
+        </a>
+
+        <a href="https://goo.gl/maps/XqY6y3uN5tB2" target="_blank" class="link-button location">
+            <i class="fas fa-map-marker-alt"></i> Find My Location
+        </a>
+    </div>
+
+</body>
+</html>
